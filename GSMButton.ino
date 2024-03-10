@@ -113,14 +113,7 @@ while(!connected)
 	}
     
 
-    // Make a phone call
-   // modem.setPhoneFunctionality(1); // Set phone functionality to full
-///Serial.println("Sending an SMS...");
-  //  modem.sendSMS("+27710522778", "sms sent from gary big red button device"); // Replace <PHONE_NUMBER> with the number you want to send the SMS to)
-   
-   // Serial.println("SMS sent");
-   // modem.callNumber("+27710522778"); // Replace <PHONE_NUMBER> with the number you want to call)
-    // Making a voice call using direct AT commands
+    
     
 }
 bool ButtonPressed = false;
