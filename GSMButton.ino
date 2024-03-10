@@ -205,13 +205,13 @@ void MakePhoneCall()
 {
     digitalWrite(dialLightPin, HIGH);
     Serial.println("Sending an SMS...");
-    modem.sendSMS("+27710522778", "Val And Gerd Knoche, Emergency Button Pressed"); // Replace <PHONE_NUMBER> with the number you want to send the SMS to)
+    modem.sendSMS("+27xxxxxxx", " Emergency Button Pressed"); // Replace <PHONE_NUMBER> with the number you want to send the SMS to)
     delay(1000);
-    modem.sendSMS("+27834481637", "Val And Gerd Knoche, Emergency Button Pressed");
+    modem.sendSMS("+27xxxxxxx", " Emergency Button Pressed");
     Serial.println("SMS sent");
-    modem.callNumber("+27834481637");
+    modem.callNumber("+27xxxxx");
     delay(10000);// Replace <PHONE_NUMBER> with the number you want to call)
-    modem.callNumber("+27710522778");
+    modem.callNumber("+27xxxxxxxxx");
 
     // Making a voice call using direct AT commands
 }
@@ -222,7 +222,7 @@ void MakePhoneCall1()
    
     Serial.println("Phonecall 2");
     
-    modem.callNumber("+27710522778");
+    modem.callNumber("+27xxxxxxx");
 
     // Making a voice call using direct AT commands
 }
