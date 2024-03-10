@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{3d388b5c-2a08-4fdc-9828-55caa446ddc4}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGSM.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClient.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientA6.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientBG96.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientESP8266.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientM590.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientM95.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientMC60.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSaraR4.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSequansMonarch.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSIM5360.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSIM7000.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSIM7000SSL.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSIM7080.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSIM70xx.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSIM7600.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSIM800.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientSIM808.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientUBLOX.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmClientXBee.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmCommon.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\TinyGsmFifo.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoCompat\Client.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoCompat\IPAddress.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)cpplint.cfg" />
+<None Include="$(MSBuildThisFileDirectory)library.json" />
+<None Include="$(MSBuildThisFileDirectory)LICENSE" />
+<None Include="$(MSBuildThisFileDirectory)Makefile" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmBattery.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmBluetooth.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmCalling.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmGPRS.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmGPS.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmGSMLocation.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmModem.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmNTP.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmSMS.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmSSL.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmTCP.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmTemperature.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmTime.tpp" />
+<None Include="$(MSBuildThisFileDirectory)src\TinyGsmWifi.tpp" />
+  </ItemGroup>
+</Project>
